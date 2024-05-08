@@ -9,7 +9,7 @@ R = [100 200 220 250 330 570 1000 1500];
 Fc = (01:99).*1000;
 
 Resolution = 400;
-Voltage_Amplitude = 10;
+Voltage_Amplitude = 1;
 
 % Component Values.
 Results_First = zeros(8, 99);
