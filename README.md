@@ -2,10 +2,5 @@
 Bu klasör MATLAB'da açıldıktan sonra,
 ```matlab
 Find_Solution
-
-save Data.m Results_First Results_Second;
-clear all;
-
-load Data.m;
-
+Print_Findings(Results_First, Results_Second, N) % N Numaranızın Son İki Hanesi.
 ```
